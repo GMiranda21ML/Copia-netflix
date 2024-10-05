@@ -1,0 +1,4 @@
+    border-color: black;
+    background-image: url(../img/fundobatman.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;

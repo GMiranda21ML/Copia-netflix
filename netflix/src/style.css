@@ -1,0 +1,239 @@
+@import url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2);
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    border-color: black;
+    background-image: url(../img/fundobatman.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode: center;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 2% 6%;
+    justify-content: space-between;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.cabecalho__menu__imagem {
+    width: 105px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.cabecalho__menu__links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cabecalho__menu__links__link {
+    font-family: NKufi,'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #B3B7BF;
+    display: flex;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.cabecalho__imagem__direita {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.cabecalho__imagem__direita__end1 {
+    width: 45px;
+    height: 45px;
+}
+
+.cabecalho__imagem__direita__end2 {
+    width: 50px;
+    height: 50px;
+}
+
+.netflix {
+    margin: 13% 6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.netflix__conteudo {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.netflix__conteudo__h1 {
+    font-size: 80px;
+    font-family: NKufi,'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.netflix__conteudo__h2 {
+    color: #B3B7BF;
+    font-family: NKufi,'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.netflix__conteudo__p {
+    font-size: 17px;
+    font-family: NKufi,'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.netflix__conteudo__imagem {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    height: 20px;
+}
+
+.netflix__conteudo__imagem__N {
+    width: 50px;
+    height: 35px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.netflix__botoes {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+
+.netflix__botao1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    padding: 17px 0;
+    border-color: white;
+    font-weight: 600;
+    flex-direction: row;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.netflix__botao2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(77, 80, 76, 0.7);
+    border-color: rgb(77, 80, 76);
+    color: white;
+    width: 280px;
+    padding: 17px 0;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.trilhas {
+    display: flex;
+    flex-direction: column;
+    padding: 14% 0%;
+    gap: 85px;
+
+}
+
+.trilha__minhaLista {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.trilha__minhaLista__titulo {
+    font-family: NKufi,'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #CFCFCF;
+    font-size: 27px;
+}
+
+.trilha__minhaLista__imagens {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.trilha__minhaLista__imagens__imagem {
+    width: 325px;
+    height: 175px;
+    cursor: pointer;
+}
+
+.trilha__emAlta {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.trilha__emAlta__titulo {
+    font-family: NKufi,'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #CFCFCF;
+    font-size: 27px;
+}
+
+.trilha__emAlta__imagens {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.trilha__emAlta__imagens__imagem {
+    width: 325px;
+    height: 175px;
+    cursor: pointer;
+}
+
+.trilha__emAlta__imagens__imagem:hover {
+    transform: scale(1.2);
+    transition: all ease-in-out 0.3s;
+}
+
+.trilha__series {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.trilha__series__titulo {
+    font-family: NKufi,'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #CFCFCF;
+    font-size: 27px;
+}
+
+.trilha__series__imagens {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.trilha__series__imagens__imagem {
+    width: 325px;
+    height: 175px;
+    cursor: pointer;
+}
+
+.trilha__series__imagens__imagem:hover {
+    transform: scale(1.2);
+    transition: all ease-in-out 0.3s;
+}
